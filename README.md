@@ -29,3 +29,13 @@ Install the exe file from releases page or build it yourself and throw it to you
 6. You don't need to do something for other shortcut, it doesn't need any argument.
 
 When you run altV (Debug On) shortcut, the game will run with debug mode enabled and when you run altV(Debug Off) shortcut, it will run with debug mode disabled. If you don't want these shortcuts to be on your desktop and you swill want to access them from Windows Search you can throw these shortcuts to `%appdata%/Microsoft/Windows/Start Menu/Programs` or if you want these shortcuts available globally, you can throw them to `C:/ProgramData/Microsoft/Windows/Start Menu/Programs`. You can also set icons to these shortcuts if you want them look better.
+
+## Errors
+In some cases you might get errors and to see them, you can run altv-debug-mode-switcher.exe from your terminal with the arguments given. Example
+```
+PS location\to\altv>.\altv-debug-mode-switcher.exe -debug
+panic: multiple debug lines found in altv.cfg
+
+PS location\to\altv>.\altv-debug-mode-switcher.exe -debug
+panic: no debug line found
+```
