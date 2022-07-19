@@ -21,11 +21,11 @@ Install the exe file from releases page or build it yourself and throw it to you
 
 
 
-1. You most likely use shortcut to run alt:V, fter throwing the exe file to the alt:V location, right click on it and send a shortcut to desktop.
+1. You most likely use shortcut to run alt:V, after throwing the exe file to the alt:V location, right click on it and send a shortcut to desktop.
 2. On desktop, duplicate this shortcut.
 3. Rename the shortcuts to different things, in this tutorial they will be named as `altV (Debug On)` and `altV (Debug Off)`.
 4. Right click on `altV (Debug On)` shortcut and select properties.
-5. On the properties window you will see a textbox next to the Target. (example: `C:\Games\altv\altv-debug-mode-switcher.exe -debug`)
+5. On the properties window you will see a textbox next to the Target. Add -debug to the end. (example: `C:\Games\altv\altv-debug-mode-switcher.exe -debug`)
 6. You don't need to do something for other shortcut, it doesn't need any argument.
 
 When you run altV (Debug On) shortcut, the game will run with debug mode enabled and when you run altV(Debug Off) shortcut, it will run with debug mode disabled. If you don't want these shortcuts to be on your desktop and you swill want to access them from Windows Search you can throw these shortcuts to `%appdata%/Microsoft/Windows/Start Menu/Programs` or if you want these shortcuts available globally, you can throw them to `C:/ProgramData/Microsoft/Windows/Start Menu/Programs`. You can also set icons to these shortcuts if you want them look better.
