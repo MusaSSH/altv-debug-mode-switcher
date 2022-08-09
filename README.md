@@ -3,7 +3,7 @@ I made this script until my feature request [#1500](https://github.com/altmp/alt
 
 ## Build
 ```
-git clone https://github.com/vicelo23/altv-debug-mode-switcher.git
+git clone https://github.com/MusaSSH/altv-debug-mode-switcher.git
 cd altv-debug-mode-switcher
 go build
 ```
